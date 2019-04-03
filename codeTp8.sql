@@ -38,12 +38,22 @@ where j.nmaillot = 1   AND j.poste= 'GARDIEN DE BUT'  AND e.ne =j.ne ;
 SELECT nmaillot , nom , prenom 
 From  Match m , joueur j , equipe e1 , equipe e2 ,
 where  m.poule = 'final' And  e1.ne =m.ne1   AND  e2.ne =m.ne2 
+
 -- naissance 
-SELECT nmaillot , nom , prenom  FROM Match m 
-WHERE   m.ne1   IN (SELECT j.ne from joueur j1
-                WHERE )
-                AND NomCli != 'Emile'; 
-where   m.
+SELECT nmaillot , nom , prenom  FROM Match m  , joueur 
+WHERE   m.ne1   IN (SELECT j1.ne from joueur j1
+                    WHERE m.poule = 'Finale ')           
+Where   m.ne2   IN (SELECT j2.ne from joueur j2
+                   WHERE m.poule = 'Finale ' )
+
+
+--mise au point 
+--SELECT nmaillot , nom , prenom , nome  FROM   joueur , match m
+WHERE( m.ne1 IN (SELECT e1.ne  from equipe e1 where m.poule='Finale'))
+   -- ANd( m.ne2 IN (SELECT e2.ne  from equipe e2 , match m where m.poule='Finale'))) 
+    
+
+ 
 
 
 -- (5) Obtenir les buteurs de l’équipe de France. 
@@ -66,7 +76,7 @@ where   m.
 
 
 
-
+-- sauve => 
 
 SELECT nmaillot , prenom , nom
 FROM joueur , equipe 
