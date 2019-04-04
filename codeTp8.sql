@@ -22,7 +22,7 @@ and  joueur.ne ='FRA';
 -- Brésil. 
 
 SELECT nmaillot , nom ,prenom  
-From joueur j1 , 
+From joueur j1 
 where j1.poste='ATTAQUANT' AND j1.ne = 'BRA'
 
 
@@ -73,7 +73,21 @@ WHERE( m.ne1 IN (SELECT e1.ne  from equipe e1 where m.poule='Finale'))
 
 -- (5) Obtenir les buteurs de l’équipe de France. 
 
+--INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '31', (SELECT nj FROM Joueur WHERE nmaillot = 6 AND ne = 'RUS'), 'BUT');
+--INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Johan', 'DJOUROU', 'DÉFENSEUR', 31, 'SUI');
+--mort
+Select  nom, prenom , ne 
+From survenir s , joueur j 
+where s.nj=j.nj and s.na = 'BUT'
+-- vivant 
+Select DISTINCT j.nom, j.prenom , ne 
+From survenir s , joueur j 
+where s.nj=j.nj and s.na = 'BUT' and ne = 'FRA';  
+
+
+
 --(6) Obtenir les buteurs de l’équipe de France en finale.
+
 
 --(7) Obtenir le nom, le prénom et le poste de chaque capitaine par équipe. 
 
