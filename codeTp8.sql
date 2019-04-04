@@ -87,12 +87,27 @@ where s.nj=j.nj and s.na = 'BUT' and ne = 'FRA';
 
 
 --(6) Obtenir les buteurs de l’équipe de France en finale.
+
+--mort
 SELECT j.nom , j.prenom , ne 
 From survenir s , joueur j , match m
 where s.nj=j.nj and s.na = 'BUT' and ne = 'FRA' and   m.poule = 'Finale'
 
+--vivant
+
+SELECT DISTINCT j.nmaillot ,j.nom , j.prenom , ne 
+From survenir s , joueur j , match m 
+where s.nj=j.nj and s.na = 'BUT' and ne = 'FRA' and   m.poule = 'Finale' and s.nm = m.nm
+ORDER by j.nmaillot
+
+
 --(7) Obtenir le nom, le prénom et le poste de chaque capitaine par équipe. 
 
+--INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'FRA'), 'C');
+
+SELECT e.nome , j.nom , j.prenom ,j.poste 
+from composer c ,equipe e , joueur j
+where c.nj =j.nj and c.cap ='cap'
 --(8) Calculer le nombre d’attaquants par équipes (classées de la plus offensive à la plus
 --défensive). 
 
