@@ -94,7 +94,7 @@ INSERT INTO Equipe (ne, nome) VALUES ('KSA', 'ARABIE SAOUDITE');
 INSERT INTO Equipe (ne, nome) VALUES ('ARG', 'ARGENTINE');
 INSERT INTO Equipe (ne, nome) VALUES ('AUS', 'AUSTRALIE');
 INSERT INTO Equipe (ne, nome) VALUES ('BEL', 'BELGIQUE');
-INSERT INTO Equipe (ne, nome) VALUES ('BRA', 'BRÉSIL');
+INSERT INTO Equipe (ne, nome) VALUES ('BRA', 'BRÃ‰SIL');
 INSERT INTO Equipe (ne, nome) VALUES ('COL', 'COLOMBIE');
 INSERT INTO Equipe (ne, nome) VALUES ('CRC', 'COSTA RICA');
 INSERT INTO Equipe (ne, nome) VALUES ('CRO', 'CROATIE');
@@ -108,15 +108,15 @@ INSERT INTO Equipe (ne, nome) VALUES ('MAR', 'MAROC');
 INSERT INTO Equipe (ne, nome) VALUES ('MEX', 'MEXIQUE');
 INSERT INTO Equipe (ne, nome) VALUES ('NGA', 'NIGERIA');
 INSERT INTO Equipe (ne, nome) VALUES ('PAN', 'PANAMA');
-INSERT INTO Equipe (ne, nome) VALUES ('PER', 'PÉROU');
+INSERT INTO Equipe (ne, nome) VALUES ('PER', 'PÃ‰ROU');
 INSERT INTO Equipe (ne, nome) VALUES ('POL', 'POLOGNE');
 INSERT INTO Equipe (ne, nome) VALUES ('POR', 'PORTUGAL');
-INSERT INTO Equipe (ne, nome) VALUES ('KOR', 'RÉPUBLIQUE DE CORÉE');
+INSERT INTO Equipe (ne, nome) VALUES ('KOR', 'RÃ‰PUBLIQUE DE CORÃ‰E');
 INSERT INTO Equipe (ne, nome) VALUES ('IRN', 'IRAN');
 INSERT INTO Equipe (ne, nome) VALUES ('RUS', 'RUSSIE');
-INSERT INTO Equipe (ne, nome) VALUES ('SEN', 'SÉNÉGAL');
+INSERT INTO Equipe (ne, nome) VALUES ('SEN', 'SÃ‰NÃ‰GAL');
 INSERT INTO Equipe (ne, nome) VALUES ('SRB', 'SERBIE');
-INSERT INTO Equipe (ne, nome) VALUES ('SWE', 'SUÈDE');
+INSERT INTO Equipe (ne, nome) VALUES ('SWE', 'SUÃˆDE');
 INSERT INTO Equipe (ne, nome) VALUES ('SUI', 'SUISSE');
 INSERT INTO Equipe (ne, nome) VALUES ('TUN', 'TUNISIE');
 INSERT INTO Equipe (ne, nome) VALUES ('URU', 'URUGUAY');
@@ -131,14 +131,14 @@ CREATE SEQUENCE seq_joueur
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Manuel', 'NEUER', 'GARDIEN DE BUT', 32, 'GER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Kevin', 'TRAPP', 'GARDIEN DE BUT', 28, 'GER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Marc-Andre', 'TER STEGEN', 'GARDIEN DE BUT', 26, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Marvin', 'PLATTENHARDT', 'DÉFENSEUR', 26, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Jonas', 'HECTOR', 'DÉFENSEUR', 28, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Matthias', 'GINTER', 'DÉFENSEUR', 24, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Mats', 'HUMMELS', 'DÉFENSEUR', 29, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Niklas', 'SUELE', 'DÉFENSEUR', 23, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Antonio', 'RUEDIGER', 'DÉFENSEUR', 25, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Jerome', 'BOATENG', 'DÉFENSEUR', 30, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Joshua', 'KIMMICH', 'DÉFENSEUR', 23, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Marvin', 'PLATTENHARDT', 'DÃ‰FENSEUR', 26, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Jonas', 'HECTOR', 'DÃ‰FENSEUR', 28, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Matthias', 'GINTER', 'DÃ‰FENSEUR', 24, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Mats', 'HUMMELS', 'DÃ‰FENSEUR', 29, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Niklas', 'SUELE', 'DÃ‰FENSEUR', 23, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Antonio', 'RUEDIGER', 'DÃ‰FENSEUR', 25, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Jerome', 'BOATENG', 'DÃ‰FENSEUR', 30, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Joshua', 'KIMMICH', 'DÃ‰FENSEUR', 23, 'GER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Sami', 'KHEDIRA', 'MILIEU DE TERRAIN', 31, 'GER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Julian', 'DRAXLER', 'MILIEU DE TERRAIN', 24, 'GER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Toni', 'KROOS', 'MILIEU DE TERRAIN', 28, 'GER');
@@ -151,21 +151,21 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'Timo', 'WERNER', 'ATTAQUANT', 22, 'GER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Marco', 'REUS', 'ATTAQUANT', 29, 'GER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Mario', 'GOMEZ', 'ATTAQUANT', 33, 'GER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Joachim', 'LÖW', 'ENTRAÎNEUR', 58, 'GER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Joachim', 'LÃ–W', 'ENTRAÃŽNEUR', 58, 'GER');
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Jordan', 'PICKFORD', 'GARDIEN DE BUT', 24, 'ENG'); 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Jack', 'BUTLAND', 'GARDIEN DE BUT', 25, 'ENG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Nick', 'POPE', 'GARDIEN DE BUT', 26, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Kyle', 'WALKER', 'DÉFENSEUR', 28, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Danny', 'ROSE', 'DÉFENSEUR', 28, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'John', 'STONES', 'DÉFENSEUR', 24, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Harry', 'MAGUIRE', 'DÉFENSEUR', 25, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Kieran', 'TRIPPIER', 'DÉFENSEUR', 27, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Gary', 'CAHILL', 'DÉFENSEUR', 32, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Phil', 'JONES', 'DÉFENSEUR', 26, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Fabian', 'DELPH', 'DÉFENSEUR', 28, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Ashley', 'YOUNG', 'DÉFENSEUR', 33, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Trent', 'ALEXANDER-ARNOLD', 'DÉFENSEUR', 19, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Kyle', 'WALKER', 'DÃ‰FENSEUR', 28, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Danny', 'ROSE', 'DÃ‰FENSEUR', 28, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'John', 'STONES', 'DÃ‰FENSEUR', 24, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Harry', 'MAGUIRE', 'DÃ‰FENSEUR', 25, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Kieran', 'TRIPPIER', 'DÃ‰FENSEUR', 27, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Gary', 'CAHILL', 'DÃ‰FENSEUR', 32, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Phil', 'JONES', 'DÃ‰FENSEUR', 26, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Fabian', 'DELPH', 'DÃ‰FENSEUR', 28, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Ashley', 'YOUNG', 'DÃ‰FENSEUR', 33, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Trent', 'ALEXANDER-ARNOLD', 'DÃ‰FENSEUR', 19, 'ENG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Eric', 'DIER', 'MILIEU DE TERRAIN', 24, 'ENG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Jesse', 'LINGARD', 'MILIEU DE TERRAIN', 25, 'ENG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Jordan', 'HENDERSON', 'MILIEU DE TERRAIN', 28, 'ENG');
@@ -176,19 +176,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Jamie', 'VARDY', 'ATTAQUANT', 31, 'ENG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Danny', 'WELBECK', 'ATTAQUANT', 27, 'ENG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Marcus', 'RASHFORD', 'ATTAQUANT', 20, 'ENG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Gareth', 'SOUTHGATE', 'ENTRAÎNEUR', 48, 'ENG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Gareth', 'SOUTHGATE', 'ENTRAÃŽNEUR', 48, 'ENG');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'ABDULLAH', 'ALMUAIOUF', 'GARDIEN DE BUT', 31, 'KSA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'YASSER', 'ALMOSAILEM', 'GARDIEN DE BUT', 34, 'KSA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'MOHAMMED', 'ALOWAIS', 'GARDIEN DE BUT', 26, 'KSA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'MANSOUR', 'ALHARBI', 'DÉFENSEUR', 30, 'KSA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'OSAMA', 'HAWSAWI', 'DÉFENSEUR', 34, 'KSA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'ALI', 'ALBULAYHI', 'DÉFENSEUR', 28, 'KSA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'OMAR', 'HAWSAWI', 'DÉFENSEUR', 32, 'KSA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'MOHAMMED', 'ALBURAYK', 'DÉFENSEUR', 25, 'KSA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'YASSER', 'ALSHAHRANI', 'DÉFENSEUR', 26, 'KSA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'MOTAZ', 'HAWSAWI', 'DÉFENSEUR', 26, 'KSA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'MANSOUR', 'ALHARBI', 'DÃ‰FENSEUR', 30, 'KSA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'OSAMA', 'HAWSAWI', 'DÃ‰FENSEUR', 34, 'KSA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'ALI', 'ALBULAYHI', 'DÃ‰FENSEUR', 28, 'KSA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'OMAR', 'HAWSAWI', 'DÃ‰FENSEUR', 32, 'KSA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'MOHAMMED', 'ALBURAYK', 'DÃ‰FENSEUR', 25, 'KSA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'YASSER', 'ALSHAHRANI', 'DÃ‰FENSEUR', 26, 'KSA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'MOTAZ', 'HAWSAWI', 'DÃ‰FENSEUR', 26, 'KSA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'SALMAN', 'ALFARAJ', 'MILIEU DE TERRAIN', 29, 'KSA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'YAHIA', 'ALSHEHRI', 'MILIEU DE TERRAIN', 28, 'KSA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'HATAN', 'BAHBRI', 'MILIEU DE TERRAIN', 26, 'KSA');
@@ -202,21 +202,21 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'MOHAMMED', 'ALSAHLAWI', 'ATTAQUANT', 31, 'KSA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'FAHAD', 'ALMUWALLAD', 'ATTAQUANT', 23, 'KSA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'MUHANNAD', 'ASIRI', 'ATTAQUANT', 31, 'KSA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Juan Antonio', 'PIZZI', 'ENTRAÎNEUR', 50, 'KSA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Juan Antonio', 'PIZZI', 'ENTRAÃŽNEUR', 50, 'KSA');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Nahuel', 'GUZMAN', 'GARDIEN DE BUT', 32, 'ARG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Franco', 'ARMANI', 'GARDIEN DE BUT', 31, 'ARG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Wilfredo', 'CABALLERO', 'GARDIEN DE BUT', 36, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Gabriel', 'MERCADO', 'DÉFENSEUR', 31, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Nicolas', 'TAGLIAFICO', 'DÉFENSEUR', 26, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Cristian', 'ANSALDI', 'DÉFENSEUR', 31, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Federico', 'FAZIO', 'DÉFENSEUR', 31, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Marcos', 'ACUNA', 'DÉFENSEUR', 26, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Javier', 'MASCHERANO', 'DÉFENSEUR', 34, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Marcos', 'ROJO', 'DÉFENSEUR', 28, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Nicolas', 'OTAMENDI', 'DÉFENSEUR', 30, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Eduardo', 'SALVIO', 'DÉFENSEUR', 28, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Gabriel', 'MERCADO', 'DÃ‰FENSEUR', 31, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Nicolas', 'TAGLIAFICO', 'DÃ‰FENSEUR', 26, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Cristian', 'ANSALDI', 'DÃ‰FENSEUR', 31, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Federico', 'FAZIO', 'DÃ‰FENSEUR', 31, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Marcos', 'ACUNA', 'DÃ‰FENSEUR', 26, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Javier', 'MASCHERANO', 'DÃ‰FENSEUR', 34, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Marcos', 'ROJO', 'DÃ‰FENSEUR', 28, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Nicolas', 'OTAMENDI', 'DÃ‰FENSEUR', 30, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Eduardo', 'SALVIO', 'DÃ‰FENSEUR', 28, 'ARG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Lucas', 'BIGLIA', 'MILIEU DE TERRAIN', 32, 'ARG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Ever', 'BANEGA', 'MILIEU DE TERRAIN', 30, 'ARG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Angel', 'DI MARIA', 'MILIEU DE TERRAIN', 30, 'ARG');
@@ -228,19 +228,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Lionel', 'MESSI', 'ATTAQUANT', 31, 'ARG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Sergio', 'AGUERO', 'ATTAQUANT', 30, 'ARG');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Paulo', 'DYBALA', 'ATTAQUANT', 24, 'ARG');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Jorge', 'SAMPAOLI', 'ENTRAÎNEUR', 58, 'ARG');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Jorge', 'SAMPAOLI', 'ENTRAÃŽNEUR', 58, 'ARG');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Mathew', 'RYAN', 'GARDIEN DE BUT', 26, 'AUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Brad', 'JONES', 'GARDIEN DE BUT', 36, 'AUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Danny', 'VUKOVIC', 'GARDIEN DE BUT', 33, 'AUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Milos', 'DEGENEK', 'DÉFENSEUR', 24, 'AUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'James', 'MEREDITH', 'DÉFENSEUR', 30, 'AUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Mark', 'MILLIGAN', 'DÉFENSEUR', 33, 'AUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Matthew', 'JURMAN', 'DÉFENSEUR', 28, 'AUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Aziz', 'BEHICH', 'DÉFENSEUR', 27, 'AUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Joshua', 'RISDON', 'DÉFENSEUR', 26, 'AUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Trent', 'SAINSBURY', 'DÉFENSEUR', 26, 'AUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Milos', 'DEGENEK', 'DÃ‰FENSEUR', 24, 'AUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'James', 'MEREDITH', 'DÃ‰FENSEUR', 30, 'AUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Mark', 'MILLIGAN', 'DÃ‰FENSEUR', 33, 'AUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Matthew', 'JURMAN', 'DÃ‰FENSEUR', 28, 'AUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Aziz', 'BEHICH', 'DÃ‰FENSEUR', 27, 'AUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Joshua', 'RISDON', 'DÃ‰FENSEUR', 26, 'AUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Trent', 'SAINSBURY', 'DÃ‰FENSEUR', 26, 'AUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Massimo', 'LUONGO', 'MILIEU DE TERRAIN', 25, 'AUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Aaron', 'MOOY', 'MILIEU DE TERRAIN', 27, 'AUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Mile', 'JEDINAK', 'MILIEU DE TERRAIN', 34, 'AUS');
@@ -254,19 +254,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Jamie', 'MacLAREN', 'ATTAQUANT', 25, 'AUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Daniel', 'ARZANI', 'ATTAQUANT', 19, 'AUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Dimitrios', 'PETRATOS', 'ATTAQUANT', 25, 'AUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Bert', 'VAN MARWIJK', 'ENTRAÎNEUR', 66, 'AUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Bert', 'VAN MARWIJK', 'ENTRAÃŽNEUR', 66, 'AUS');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Thibaut', 'COURTOIS', 'GARDIEN DE BUT', 26, 'BEL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Simon', 'MIGNOLET', 'GARDIEN DE BUT', 30, 'BEL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Koen', 'CASTEELS', 'GARDIEN DE BUT', 26, 'BEL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Toby', 'ALDERWEIRELD', 'DÉFENSEUR', 29, 'BEL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Thomas', 'VERMAELEN', 'DÉFENSEUR', 32, 'BEL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Vincent', 'KOMPANY', 'DÉFENSEUR', 32, 'BEL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Jan', 'VERTONGHEN', 'DÉFENSEUR', 31, 'BEL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Thomas', 'MEUNIER', 'DÉFENSEUR', 26, 'BEL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Dedryck', 'BOYATA', 'DÉFENSEUR', 27, 'BEL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Leander', 'DENDONCKER', 'DÉFENSEUR', 23, 'BEL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Toby', 'ALDERWEIRELD', 'DÃ‰FENSEUR', 29, 'BEL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Thomas', 'VERMAELEN', 'DÃ‰FENSEUR', 32, 'BEL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Vincent', 'KOMPANY', 'DÃ‰FENSEUR', 32, 'BEL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Jan', 'VERTONGHEN', 'DÃ‰FENSEUR', 31, 'BEL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Thomas', 'MEUNIER', 'DÃ‰FENSEUR', 26, 'BEL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Dedryck', 'BOYATA', 'DÃ‰FENSEUR', 27, 'BEL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Leander', 'DENDONCKER', 'DÃ‰FENSEUR', 23, 'BEL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Axel', 'WITSEL', 'MILIEU DE TERRAIN', 29, 'BEL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Kevin', 'DE BRUYNE', 'MILIEU DE TERRAIN', 27, 'BEL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Marouane', 'FELLAINI', 'MILIEU DE TERRAIN', 30, 'BEL');
@@ -280,20 +280,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Dries', 'MERTENS', 'ATTAQUANT', 31, 'BEL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Adnan', 'JANUZAJ', 'ATTAQUANT', 23, 'BEL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Michy', 'BATSHUAYI', 'ATTAQUANT', 24, 'BEL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Roberto', 'MARTINEZ', 'ENTRAÎNEUR', 45, 'BEL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Roberto', 'MARTINEZ', 'ENTRAÃŽNEUR', 45, 'BEL');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, NULL, 'ALISSON', 'GARDIEN DE BUT', 25, 'BRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, NULL, 'CASSIO', 'GARDIEN DE BUT', 31, 'BRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, NULL, 'EDERSON', 'GARDIEN DE BUT', 25, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'THIAGO', 'SILVA', 'DÉFENSEUR', 33, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, NULL, 'MIRANDA', 'DÉFENSEUR', 33, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, NULL, 'GEROMEL', 'DÉFENSEUR', 32, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, NULL, 'FILIPE LUIS', 'DÉFENSEUR', 33, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, NULL, 'MARCELO', 'DÉFENSEUR', 30, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, NULL, 'MARQUINHOS', 'DÉFENSEUR', 24, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, NULL, 'DANILO', 'DÉFENSEUR', 27, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, NULL, 'FAGNER', 'DÉFENSEUR', 29, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'THIAGO', 'SILVA', 'DÃ‰FENSEUR', 33, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, NULL, 'MIRANDA', 'DÃ‰FENSEUR', 33, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, NULL, 'GEROMEL', 'DÃ‰FENSEUR', 32, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, NULL, 'FILIPE LUIS', 'DÃ‰FENSEUR', 33, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, NULL, 'MARCELO', 'DÃ‰FENSEUR', 30, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, NULL, 'MARQUINHOS', 'DÃ‰FENSEUR', 24, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, NULL, 'DANILO', 'DÃ‰FENSEUR', 27, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, NULL, 'FAGNER', 'DÃ‰FENSEUR', 29, 'BRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, NULL, 'CASEMIRO', 'MILIEU DE TERRAIN', 26, 'BRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8 , NULL, 'RENATO AUGUSTO', 'MILIEU DE TERRAIN', 30, 'BRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'PHILIPPE', 'COUTINHO', 'MILIEU DE TERRAIN', 26, 'BRA');
@@ -306,19 +306,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, NULL, 'NEYMAR', 'ATTAQUANT', 26, 'BRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, NULL, 'ROBERTO FIRMINO', 'ATTAQUANT', 26, 'BRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, NULL, 'TAISON', 'ATTAQUANT', 30, 'BRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, NULL, 'TITE', 'ENTRAÎNEUR', 57, 'BRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, NULL, 'TITE', 'ENTRAÃŽNEUR', 57, 'BRA');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'David', 'OSPINA', 'GARDIEN DE BUT', 30, 'COL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Camilo', 'VARGAS', 'GARDIEN DE BUT', 29, 'COL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Jose', 'CUADRADO', 'GARDIEN DE BUT', 33, 'COL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Cristian', 'ZAPATA', 'DÉFENSEUR', 31, 'COL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Oscar', 'MURILLO', 'DÉFENSEUR', 30, 'COL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Santiago', 'ARIAS', 'DÉFENSEUR', 26, 'COL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Yerry', 'MINA', 'DÉFENSEUR', 23, 'COL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Johan', 'MOJICA', 'DÉFENSEUR', 26, 'COL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Farid', 'DIAZ', 'DÉFENSEUR', 35, 'COL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Davinson', 'SANCHEZ', 'DÉFENSEUR', 22, 'COL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Cristian', 'ZAPATA', 'DÃ‰FENSEUR', 31, 'COL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Oscar', 'MURILLO', 'DÃ‰FENSEUR', 30, 'COL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Santiago', 'ARIAS', 'DÃ‰FENSEUR', 26, 'COL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Yerry', 'MINA', 'DÃ‰FENSEUR', 23, 'COL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Johan', 'MOJICA', 'DÃ‰FENSEUR', 26, 'COL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Farid', 'DIAZ', 'DÃ‰FENSEUR', 35, 'COL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Davinson', 'SANCHEZ', 'DÃ‰FENSEUR', 22, 'COL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Wilmar', 'BARRIOS', 'MILIEU DE TERRAIN', 24, 'COL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Carlos', 'SANCHEZ', 'MILIEU DE TERRAIN', 32, 'COL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Abel', 'AGUILAR', 'MILIEU DE TERRAIN', 33, 'COL');
@@ -332,21 +332,21 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Luis', 'MURIEL', 'ATTAQUANT', 27, 'COL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Miguel', 'BORJA', 'ATTAQUANT', 25, 'COL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Jose', 'IZQUIERDO', 'ATTAQUANT', 26, 'COL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Jose', 'PEKERMAN', 'ENTRAÎNEUR', 69, 'COL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Jose', 'PEKERMAN', 'ENTRAÃŽNEUR', 69, 'COL');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Keylor', 'NAVAS', 'GARDIEN DE BUT', 31, 'CRC');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Patrick', 'PEMBERTON', 'GARDIEN DE BUT', 36, 'CRC');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Leonel', 'MOREIRA', 'GARDIEN DE BUT', 28, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Johnny', 'ACOSTA', 'DÉFENSEUR', 35, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Giancarlo', 'GONZALEZ', 'DÉFENSEUR', 30, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Ian', 'SMITH', 'DÉFENSEUR', 20, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Oscar', 'DUARTE', 'DÉFENSEUR', 29, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Bryan', 'OVIEDO', 'DÉFENSEUR', 28, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Francisco', 'CALVO', 'DÉFENSEUR', 26, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Cristian', 'GAMBOA', 'DÉFENSEUR', 28, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Kendall', 'WASTON', 'DÉFENSEUR', 30, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Kenner', 'GUTIERREZ', 'DÉFENSEUR', 29, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Johnny', 'ACOSTA', 'DÃ‰FENSEUR', 35, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Giancarlo', 'GONZALEZ', 'DÃ‰FENSEUR', 30, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Ian', 'SMITH', 'DÃ‰FENSEUR', 20, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Oscar', 'DUARTE', 'DÃ‰FENSEUR', 29, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Bryan', 'OVIEDO', 'DÃ‰FENSEUR', 28, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Francisco', 'CALVO', 'DÃ‰FENSEUR', 26, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Cristian', 'GAMBOA', 'DÃ‰FENSEUR', 28, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Kendall', 'WASTON', 'DÃ‰FENSEUR', 30, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Kenner', 'GUTIERREZ', 'DÃ‰FENSEUR', 29, 'CRC');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Celso', 'BORGES', 'MILIEU DE TERRAIN', 30, 'CRC');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Christian', 'BOLANOS', 'MILIEU DE TERRAIN', 34, 'CRC');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'Daniel', 'COLINDRES', 'MILIEU DE TERRAIN', 33, 'CRC');
@@ -358,20 +358,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Johan', 'VENEGAS', 'ATTAQUANT', 29, 'CRC');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Joel', 'CAMPBELL', 'ATTAQUANT', 26, 'CRC');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Marcos', 'URENA', 'ATTAQUANT', 28, 'CRC');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Oscar', 'RAMIREZ', 'ENTRAÎNEUR', 53, 'CRC');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Oscar', 'RAMIREZ', 'ENTRAÃŽNEUR', 53, 'CRC');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Dominik', 'LIVAKOVIC', 'GARDIEN DE BUT', 23, 'CRO');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Lovre', 'KALINIC', 'GARDIEN DE BUT', 28, 'CRO');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Danijel', 'SUBASIC', 'GARDIEN DE BUT', 33, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Sime', 'VRSALJKO', 'DÉFENSEUR', 26, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Ivan', 'STRINIC', 'DÉFENSEUR', 31, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Vedran', 'CORLUKA', 'DÉFENSEUR', 32, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Dejan', 'LOVREN', 'DÉFENSEUR', 29, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Tin', 'JEDVAJ', 'DÉFENSEUR', 22, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Duje', 'CALETA-CAR', 'DÉFENSEUR', 21, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Domagoj', 'VIDA', 'DÉFENSEUR', 29, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Josip', 'PIVARIC', 'DÉFENSEUR', 29, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Sime', 'VRSALJKO', 'DÃ‰FENSEUR', 26, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Ivan', 'STRINIC', 'DÃ‰FENSEUR', 31, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Vedran', 'CORLUKA', 'DÃ‰FENSEUR', 32, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Dejan', 'LOVREN', 'DÃ‰FENSEUR', 29, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Tin', 'JEDVAJ', 'DÃ‰FENSEUR', 22, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Duje', 'CALETA-CAR', 'DÃ‰FENSEUR', 21, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Domagoj', 'VIDA', 'DÃ‰FENSEUR', 29, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Josip', 'PIVARIC', 'DÃ‰FENSEUR', 29, 'CRO');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Ivan', 'RAKITIC', 'MILIEU DE TERRAIN', 30, 'CRO');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Mateo', 'KOVACIC', 'MILIEU DE TERRAIN', 24, 'CRO');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Luka', 'MODRIC', 'MILIEU DE TERRAIN', 32, 'CRO');
@@ -384,19 +384,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Mario', 'MANDZUKIC', 'ATTAQUANT', 32, 'CRO');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Ante', 'REBIC', 'ATTAQUANT', 24, 'CRO');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Marko', 'PJACA', 'ATTAQUANT', 23, 'CRO');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Zlatko', 'DALIC', 'ENTRAÎNEUR', 51, 'CRO');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Zlatko', 'DALIC', 'ENTRAÃŽNEUR', 51, 'CRO');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Kasper', 'SCHMEICHEL', 'GARDIEN DE BUT', 31, 'DEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Jonas', 'LOSSL', 'GARDIEN DE BUT', 29, 'DEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Frederik', 'RONNOW', 'GARDIEN DE BUT', 26, 'DEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Jannik', 'VESTERGAARD', 'DÉFENSEUR', 26, 'DEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Simon', 'KJAER', 'DÉFENSEUR', 29, 'DEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Jonas', 'KNUDSEN', 'DÉFENSEUR', 25, 'DEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Andreas', 'CHRISTENSEN', 'DÉFENSEUR', 22, 'DEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Mathias', 'JORGENSEN', 'DÉFENSEUR', 28, 'DEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Henrik', 'DALSGAARD', 'DÉFENSEUR', 29, 'DEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Jens', 'Stryger LARSEN', 'DÉFENSEUR', 27, 'DEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Jannik', 'VESTERGAARD', 'DÃ‰FENSEUR', 26, 'DEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Simon', 'KJAER', 'DÃ‰FENSEUR', 29, 'DEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Jonas', 'KNUDSEN', 'DÃ‰FENSEUR', 25, 'DEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Andreas', 'CHRISTENSEN', 'DÃ‰FENSEUR', 22, 'DEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Mathias', 'JORGENSEN', 'DÃ‰FENSEUR', 28, 'DEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Henrik', 'DALSGAARD', 'DÃ‰FENSEUR', 29, 'DEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Jens', 'Stryger LARSEN', 'DÃ‰FENSEUR', 27, 'DEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Michael', 'KROHN-DEHLI', 'MILIEU DE TERRAIN', 35, 'DEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'William', 'KVIST', 'MILIEU DE TERRAIN', 33, 'DEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Thomas', 'DELANEY', 'MILIEU DE TERRAIN', 27, 'DEN');
@@ -410,20 +410,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Yussuf Yurary', 'POULSEN', 'ATTAQUANT', 24, 'DEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Andreas', 'CORNELIUS', 'ATTAQUANT', 25, 'DEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Pione', 'SISTO', 'ATTAQUANT', 23, 'DEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Age', 'HAREIDE', 'ENTRAÎNEUR', 64, 'DEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Age', 'HAREIDE', 'ENTRAÃŽNEUR', 64, 'DEN');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'ESSAM', 'ELHADARY', 'GARDIEN DE BUT', 45, 'EGY');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'SHERIF', 'EKRAMY', 'GARDIEN DE BUT', 35, 'EGY');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'MOHAMED', 'ELSHENAWY', 'GARDIEN DE BUT', 29, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'ALI', 'GABR', 'DÉFENSEUR', 29, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'AHMED', 'ELMOHAMADY', 'DÉFENSEUR', 30, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'AHMED', 'HEGAZY', 'DÉFENSEUR', 27, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'AHMED', 'FATHI', 'DÉFENSEUR', 33, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'AYMAN', 'ASHRAF', 'DÉFENSEUR', 27, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'MOHAMED', 'ABDELSHAFY', 'DÉFENSEUR', 33, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'MAHMOUD', 'HAMDY', 'DÉFENSEUR', 23, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'SAMIR', 'SAAD', 'DÉFENSEUR', 29, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'ALI', 'GABR', 'DÃ‰FENSEUR', 29, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'AHMED', 'ELMOHAMADY', 'DÃ‰FENSEUR', 30, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'AHMED', 'HEGAZY', 'DÃ‰FENSEUR', 27, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'AHMED', 'FATHI', 'DÃ‰FENSEUR', 33, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'AYMAN', 'ASHRAF', 'DÃ‰FENSEUR', 27, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'MOHAMED', 'ABDELSHAFY', 'DÃ‰FENSEUR', 33, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'MAHMOUD', 'HAMDY', 'DÃ‰FENSEUR', 23, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'SAMIR', 'SAAD', 'DÃ‰FENSEUR', 29, 'EGY');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'OMAR', 'GABER', 'MILIEU DE TERRAIN', 26, 'EGY');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'SAM', 'MORSY', 'MILIEU DE TERRAIN', 26, 'EGY');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'TAREK', 'HAMED', 'MILIEU DE TERRAIN', 29, 'EGY');
@@ -436,20 +436,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'RAMADAN', 'SOBHY', 'ATTAQUANT', 21, 'EGY');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, NULL, 'SHIKABALA', 'ATTAQUANT', 32, 'EGY');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'AMR', 'WARDA', 'ATTAQUANT', 24, 'EGY');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Hector', 'CUPER', 'ENTRAÎNEUR', 62, 'EGY');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Hector', 'CUPER', 'ENTRAÃŽNEUR', 62, 'EGY');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'David', 'DE GEA', 'GARDIEN DE BUT', 27, 'ESP');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Kepa', 'ARRIZABALAGA', 'GARDIEN DE BUT', 23, 'ESP');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Pepe', 'REINA', 'GARDIEN DE BUT', 36, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Dani', 'CARVAJAL', 'DÉFENSEUR', 26, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Gerard', 'PIQUE', 'DÉFENSEUR', 31, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, NULL, 'NACHO', 'DÉFENSEUR', 28, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Alvaro', 'ODRIOZOLA', 'DÉFENSEUR', 22, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Cesar', 'AZPILICUETA', 'DÉFENSEUR', 29, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Sergio', 'RAMOS', 'DÉFENSEUR', 32, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Nacho', 'MONREAL', 'DÉFENSEUR', 32, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Jordi', 'ALBA', 'DÉFENSEUR', 29, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Dani', 'CARVAJAL', 'DÃ‰FENSEUR', 26, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Gerard', 'PIQUE', 'DÃ‰FENSEUR', 31, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, NULL, 'NACHO', 'DÃ‰FENSEUR', 28, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Alvaro', 'ODRIOZOLA', 'DÃ‰FENSEUR', 22, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Cesar', 'AZPILICUETA', 'DÃ‰FENSEUR', 29, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Sergio', 'RAMOS', 'DÃ‰FENSEUR', 32, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Nacho', 'MONREAL', 'DÃ‰FENSEUR', 32, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Jordi', 'ALBA', 'DÃ‰FENSEUR', 29, 'ESP');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Sergio', 'BUSQUETS', 'MILIEU DE TERRAIN', 30, 'ESP');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Andres', 'INIESTA', 'MILIEU DE TERRAIN', 34, 'ESP');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, NULL, 'SAUL', 'MILIEU DE TERRAIN', 23, 'ESP');
@@ -462,20 +462,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Iago', 'ASPAS', 'ATTAQUANT', 31, 'ESP');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Diego', 'COSTA', 'ATTAQUANT', 29, 'ESP');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'David', 'SILVA', 'ATTAQUANT', 32, 'ESP');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Fernando', 'HIERRO', 'ENTRAÎNEUR', 50, 'ESP');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Fernando', 'HIERRO', 'ENTRAÃŽNEUR', 50, 'ESP');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Hugo', 'LLORIS', 'GARDIEN DE BUT', 31, 'FRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Steve', 'MANDANDA', 'GARDIEN DE BUT', 33, 'FRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Alphonse', 'AREOLA', 'GARDIEN DE BUT', 25, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Benjamin', 'PAVARD', 'DÉFENSEUR', 22, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Presnel', 'KIMPEMBE', 'DÉFENSEUR', 23, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Raphael', 'VARANE', 'DÉFENSEUR', 25, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Samuel', 'UMTITI', 'DÉFENSEUR', 24, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Adil', 'RAMI', 'DÉFENSEUR', 32, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Djibril', 'SIDIBE', 'DÉFENSEUR', 26, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Lucas', 'HERNANDEZ', 'DÉFENSEUR', 22, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Benjamin', 'MENDY', 'DÉFENSEUR', 24, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Benjamin', 'PAVARD', 'DÃ‰FENSEUR', 22, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Presnel', 'KIMPEMBE', 'DÃ‰FENSEUR', 23, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Raphael', 'VARANE', 'DÃ‰FENSEUR', 25, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Samuel', 'UMTITI', 'DÃ‰FENSEUR', 24, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Adil', 'RAMI', 'DÃ‰FENSEUR', 32, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Djibril', 'SIDIBE', 'DÃ‰FENSEUR', 26, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Lucas', 'HERNANDEZ', 'DÃ‰FENSEUR', 22, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Benjamin', 'MENDY', 'DÃ‰FENSEUR', 24, 'FRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Paul', 'POGBA', 'MILIEU DE TERRAIN', 25, 'FRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Corentin', 'TOLISSO', 'MILIEU DE TERRAIN', 24, 'FRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Ngolo', 'KANTE', 'MILIEU DE TERRAIN', 27, 'FRA');
@@ -488,19 +488,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Ousmane', 'DEMBELE', 'ATTAQUANT', 21, 'FRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Nabil', 'FEKIR', 'ATTAQUANT', 25, 'FRA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Florian', 'THAUVIN', 'ATTAQUANT', 25, 'FRA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Didier', 'DESCHAMPS', 'ENTRAÎNEUR', 49, 'FRA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Didier', 'DESCHAMPS', 'ENTRAÃŽNEUR', 49, 'FRA');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Hannes', 'HALLDORSSON', 'GARDIEN DE BUT', 34, 'ISL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Frederik', 'SCHRAM', 'GARDIEN DE BUT', 23, 'ISL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Runar', 'RUNARSSON', 'GARDIEN DE BUT', 23, 'ISL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Birkir', 'SAEVARSSON', 'DÉFENSEUR', 33, 'ISL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Sverrir', 'INGASON', 'DÉFENSEUR', 25, 'ISL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Ragnar', 'SIGURDSSON', 'DÉFENSEUR', 32, 'ISL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Kari', 'ARNASON', 'DÉFENSEUR', 35, 'ISL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Holmar', 'EYJOLFSSON', 'DÉFENSEUR', 28, 'ISL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Hordur', 'MAGNUSSON', 'DÉFENSEUR', 25, 'ISL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Ari', 'SKULASON', 'DÉFENSEUR', 31, 'ISL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Birkir', 'SAEVARSSON', 'DÃ‰FENSEUR', 33, 'ISL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Sverrir', 'INGASON', 'DÃ‰FENSEUR', 25, 'ISL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Ragnar', 'SIGURDSSON', 'DÃ‰FENSEUR', 32, 'ISL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Kari', 'ARNASON', 'DÃ‰FENSEUR', 35, 'ISL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Holmar', 'EYJOLFSSON', 'DÃ‰FENSEUR', 28, 'ISL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Hordur', 'MAGNUSSON', 'DÃ‰FENSEUR', 25, 'ISL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Ari', 'SKULASON', 'DÃ‰FENSEUR', 31, 'ISL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Samuel', 'FRIDJONSSON', 'MILIEU DE TERRAIN', 22, 'ISL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Albert', 'GUDMUNDSSON', 'MILIEU DE TERRAIN', 21, 'ISL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Johann', 'GUDMUNDSSON', 'MILIEU DE TERRAIN', 27, 'ISL');
@@ -514,20 +514,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'Bjorn', 'SIGURDARSON', 'ATTAQUANT', 27, 'ISL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Alfred', 'FINNBOGASON', 'ATTAQUANT', 29, 'ISL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Jon', 'BODVARSSON', 'ATTAQUANT', 26, 'ISL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Heimir', 'HALLGRIMSSON', 'ENTRAÎNEUR', 51, 'ISL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Heimir', 'HALLGRIMSSON', 'ENTRAÃŽNEUR', 51, 'ISL');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Eiji', 'KAWASHIMA', 'GARDIEN DE BUT', 35, 'JPN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Masaaki', 'HIGASHIGUCHI', 'GARDIEN DE BUT', 32, 'JPN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Kosuke', 'NAKAMURA', 'GARDIEN DE BUT', 23, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Naomichi', 'UEDA', 'DÉFENSEUR', 23, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Gen', 'SHOJI', 'DÉFENSEUR', 25, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Yuto', 'NAGATOMO', 'DÉFENSEUR', 31, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Wataru', 'ENDO', 'DÉFENSEUR', 25, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Hiroki', 'SAKAI', 'DÉFENSEUR', 28, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Tomoaki', 'MAKINO', 'DÉFENSEUR', 31, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Gotoku', 'SAKAI', 'DÉFENSEUR', 27, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Maya', 'YOSHIDA', 'DÉFENSEUR', 30, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Naomichi', 'UEDA', 'DÃ‰FENSEUR', 23, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Gen', 'SHOJI', 'DÃ‰FENSEUR', 25, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Yuto', 'NAGATOMO', 'DÃ‰FENSEUR', 31, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Wataru', 'ENDO', 'DÃ‰FENSEUR', 25, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Hiroki', 'SAKAI', 'DÃ‰FENSEUR', 28, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Tomoaki', 'MAKINO', 'DÃ‰FENSEUR', 31, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Gotoku', 'SAKAI', 'DÃ‰FENSEUR', 27, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Maya', 'YOSHIDA', 'DÃ‰FENSEUR', 30, 'JPN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Keisuke', 'HONDA', 'MILIEU DE TERRAIN', 32, 'JPN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Gaku', 'SHIBASAKI', 'MILIEU DE TERRAIN', 26, 'JPN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Genki', 'HARAGUCHI', 'MILIEU DE TERRAIN', 27, 'JPN');
@@ -540,18 +540,18 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'Shinji', 'OKAZAKI', 'ATTAQUANT', 32, 'JPN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Yoshinori', 'MUTO', 'ATTAQUANT', 26, 'JPN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Yuya', 'OSAKO', 'ATTAQUANT', 28, 'JPN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Akira', 'NISHINO', 'ENTRAÎNEUR', 63, 'JPN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Akira', 'NISHINO', 'ENTRAÃŽNEUR', 63, 'JPN');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Yassine', 'BOUNOU', 'GARDIEN DE BUT', 27, 'MAR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Monir', 'EL KAJOUI', 'GARDIEN DE BUT', 29, 'MAR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Ahmed', 'TAGNAOUTI', 'GARDIEN DE BUT', 22, 'MAR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Achraf', 'HAKIMI', 'DÉFENSEUR', 19, 'MAR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Hamza', 'MENDYL', 'DÉFENSEUR', 20, 'MAR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Manuel', 'DA COSTA', 'DÉFENSEUR', 32, 'MAR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Mehdi', 'BENATIA', 'DÉFENSEUR', 31, 'MAR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Ghanem', 'SAISS', 'DÉFENSEUR', 28, 'MAR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Nabil', 'DIRAR', 'DÉFENSEUR', 32, 'MAR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Achraf', 'HAKIMI', 'DÃ‰FENSEUR', 19, 'MAR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Hamza', 'MENDYL', 'DÃ‰FENSEUR', 20, 'MAR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Manuel', 'DA COSTA', 'DÃ‰FENSEUR', 32, 'MAR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Mehdi', 'BENATIA', 'DÃ‰FENSEUR', 31, 'MAR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Ghanem', 'SAISS', 'DÃ‰FENSEUR', 28, 'MAR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Nabil', 'DIRAR', 'DÃ‰FENSEUR', 32, 'MAR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Hakim', 'ZIYACH', 'MILIEU DE TERRAIN', 25, 'MAR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Karim', 'EL AHMADI', 'MILIEU DE TERRAIN', 33, 'MAR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Younes', 'BELHANDA', 'MILIEU DE TERRAIN', 28, 'MAR');
@@ -566,18 +566,18 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Khalid', 'BOUTAIB', 'ATTAQUANT', 31, 'MAR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Youssef', 'EN NESYRI', 'ATTAQUANT', 21, 'MAR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Aziz', 'BOUHADDOUZ', 'ATTAQUANT', 31, 'MAR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Herve', 'RENARD', 'ENTRAÎNEUR', 49, 'MAR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Herve', 'RENARD', 'ENTRAÃŽNEUR', 49, 'MAR');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Jose', 'CORONA', 'GARDIEN DE BUT', 37, 'MEX');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Alfredo', 'TALAVERA', 'GARDIEN DE BUT', 35, 'MEX');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Guillermo', 'OCHOA', 'GARDIEN DE BUT', 33, 'MEX');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Hugo', 'AYALA', 'DÉFENSEUR', 31, 'MEX');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Carlos', 'SALCEDO', 'DÉFENSEUR', 24, 'MEX');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Rafael', 'MARQUEZ', 'DÉFENSEUR', 39, 'MEX');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Hector', 'MORENO', 'DÉFENSEUR', 30, 'MEX');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Hector', 'HERRERA', 'DÉFENSEUR', 28, 'MEX');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Edson', 'ALVAREZ', 'DÉFENSEUR', 20, 'MEX');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Hugo', 'AYALA', 'DÃ‰FENSEUR', 31, 'MEX');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Carlos', 'SALCEDO', 'DÃ‰FENSEUR', 24, 'MEX');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Rafael', 'MARQUEZ', 'DÃ‰FENSEUR', 39, 'MEX');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Hector', 'MORENO', 'DÃ‰FENSEUR', 30, 'MEX');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Hector', 'HERRERA', 'DÃ‰FENSEUR', 28, 'MEX');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Edson', 'ALVAREZ', 'DÃ‰FENSEUR', 20, 'MEX');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Erick', 'GUTIERREZ', 'MILIEU DE TERRAIN', 23, 'MEX');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Jonathan', 'DOS SANTOS', 'MILIEU DE TERRAIN', 28, 'MEX');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Miguel', 'LAYUN', 'MILIEU DE TERRAIN', 30, 'MEX');
@@ -592,20 +592,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Javier', 'HERNANDEZ', 'ATTAQUANT', 30, 'MEX');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Oribe', 'PERALTA', 'ATTAQUANT', 34, 'MEX');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Hirving', 'LOZANO', 'ATTAQUANT', 23, 'MEX');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Juan', 'Carlos OSORIO', 'ENTRAÎNEUR', 57, 'MEX');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Juan', 'Carlos OSORIO', 'ENTRAÃŽNEUR', 57, 'MEX');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Ikechukwu', 'EZENWA', 'GARDIEN DE BUT', 29, 'NGA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Daniel', 'AKPEYI', 'GARDIEN DE BUT', 32, 'NGA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Francis', 'UZOHO', 'GARDIEN DE BUT', 19, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Bryan', 'IDOWU', 'DÉFENSEUR', 26, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Elderson', 'ECHIEJILE', 'DÉFENSEUR', 30, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'William', 'EKONG', 'DÉFENSEUR', 25, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Leon', 'BALOGUN', 'DÉFENSEUR', 30, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Abdullahi', 'SHEHU', 'DÉFENSEUR', 25, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Chidozie', 'AWAZIEM', 'DÉFENSEUR', 21, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Tyronne', 'EBUEHI', 'DÉFENSEUR', 22, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Kenneth', 'OMERUO', 'DÉFENSEUR', 24, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Bryan', 'IDOWU', 'DÃ‰FENSEUR', 26, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Elderson', 'ECHIEJILE', 'DÃ‰FENSEUR', 30, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'William', 'EKONG', 'DÃ‰FENSEUR', 25, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Leon', 'BALOGUN', 'DÃ‰FENSEUR', 30, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Abdullahi', 'SHEHU', 'DÃ‰FENSEUR', 25, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Chidozie', 'AWAZIEM', 'DÃ‰FENSEUR', 21, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Tyronne', 'EBUEHI', 'DÃ‰FENSEUR', 22, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Kenneth', 'OMERUO', 'DÃ‰FENSEUR', 24, 'NGA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Wilfred', 'NDIDI', 'MILIEU DE TERRAIN', 21, 'NGA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Oghenekaro', 'ETEBO', 'MILIEU DE TERRAIN', 22, 'NGA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'John', 'Obi MIKEL', 'MILIEU DE TERRAIN', 31, 'NGA');
@@ -618,20 +618,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Simeon', 'NWANKWO', 'ATTAQUANT', 26, 'NGA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Kelechi', 'IHEANACHO', 'ATTAQUANT', 22, 'NGA');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Alex', 'IWOBI', 'ATTAQUANT', 22, 'NGA');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Gernot', 'ROHR', 'ENTRAÎNEUR', 65, 'NGA');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Gernot', 'ROHR', 'ENTRAÃŽNEUR', 65, 'NGA');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Jaime', 'PENEDO', 'GARDIEN DE BUT', 36, 'PAN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Jose', 'CALDERON', 'GARDIEN DE BUT', 33, 'PAN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Alex', 'RODRIGUEZ', 'GARDIEN DE BUT', 28, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Michael', 'MURILLO', 'DÉFENSEUR', 22, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Harold', 'CUMMINGS', 'DÉFENSEUR', 26, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Fidel', 'ESCOBAR', 'DÉFENSEUR', 23, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Roman', 'TORRES', 'DÉFENSEUR', 32, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Adolfo', 'MACHADO', 'DÉFENSEUR', 33, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Eric', 'DAVIS', 'DÉFENSEUR', 27, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Luis', 'OVALLE', 'DÉFENSEUR', 29, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Felipe', 'BALOY', 'DÉFENSEUR', 37, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Michael', 'MURILLO', 'DÃ‰FENSEUR', 22, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Harold', 'CUMMINGS', 'DÃ‰FENSEUR', 26, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Fidel', 'ESCOBAR', 'DÃ‰FENSEUR', 23, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Roman', 'TORRES', 'DÃ‰FENSEUR', 32, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Adolfo', 'MACHADO', 'DÃ‰FENSEUR', 33, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Eric', 'DAVIS', 'DÃ‰FENSEUR', 27, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Luis', 'OVALLE', 'DÃ‰FENSEUR', 29, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Felipe', 'BALOY', 'DÃ‰FENSEUR', 37, 'PAN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Gabriel', 'GOMEZ', 'MILIEU DE TERRAIN', 34, 'PAN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Edgar', 'BARCENAS', 'MILIEU DE TERRAIN', 24, 'PAN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Armando', 'COOPER', 'MILIEU DE TERRAIN', 30, 'PAN');
@@ -644,20 +644,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Ismael', 'DIAZ', 'ATTAQUANT', 21, 'PAN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Abdiel', 'ARROYO', 'ATTAQUANT', 24, 'PAN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Luis', 'TEJADA', 'ATTAQUANT', 36, 'PAN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Hernan', 'GOMEZ', 'ENTRAÎNEUR', 62, 'PAN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Hernan', 'GOMEZ', 'ENTRAÃŽNEUR', 62, 'PAN');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Pedro', 'GALLESE', 'GARDIEN DE BUT', 28, 'PER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Carlos', 'CACEDA', 'GARDIEN DE BUT', 26, 'PER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Jose', 'CARVALLO', 'GARDIEN DE BUT', 32, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Alberto', 'RODRIGUEZ', 'DÉFENSEUR', 34, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Aldo', 'CORZO', 'DÉFENSEUR', 29, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Anderson', 'SANTAMARIA', 'DÉFENSEUR', 26, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Miguel', 'ARAUJO', 'DÉFENSEUR', 23, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Miguel', 'TRAUCO', 'DÉFENSEUR', 26, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Christian', 'RAMOS', 'DÉFENSEUR', 29, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Luis', 'ADVINCULA', 'DÉFENSEUR', 28, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Nilson', 'LOYOLA', 'DÉFENSEUR', 23, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Alberto', 'RODRIGUEZ', 'DÃ‰FENSEUR', 34, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Aldo', 'CORZO', 'DÃ‰FENSEUR', 29, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Anderson', 'SANTAMARIA', 'DÃ‰FENSEUR', 26, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Miguel', 'ARAUJO', 'DÃ‰FENSEUR', 23, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Miguel', 'TRAUCO', 'DÃ‰FENSEUR', 26, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Christian', 'RAMOS', 'DÃ‰FENSEUR', 29, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'Luis', 'ADVINCULA', 'DÃ‰FENSEUR', 28, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Nilson', 'LOYOLA', 'DÃ‰FENSEUR', 23, 'PER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Paolo', 'HURTADO', 'MILIEU DE TERRAIN', 28, 'PER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Christian', 'CUEVA', 'MILIEU DE TERRAIN', 26, 'PER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Renato', 'TAPIA', 'MILIEU DE TERRAIN', 23, 'PER');
@@ -670,19 +670,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Raul', 'RUIDIAZ', 'ATTAQUANT', 28, 'PER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Andre', 'CARRILLO', 'ATTAQUANT', 27, 'PER');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Edison', 'FLORES', 'ATTAQUANT', 24, 'PER');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Ricardo', 'GARECA', 'ENTRAÎNEUR', 60, 'PER');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Ricardo', 'GARECA', 'ENTRAÃŽNEUR', 60, 'PER');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Wojciech', 'SZCZESNY', 'GARDIEN DE BUT', 28, 'POL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Bartosz', 'BIALKOWSKI', 'GARDIEN DE BUT', 31, 'POL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Lukasz', 'FABIANSKI', 'GARDIEN DE BUT', 33, 'POL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Michal', 'PAZDAN', 'DÉFENSEUR', 30, 'POL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Artur', 'JEDRZEJCZYK', 'DÉFENSEUR', 30, 'POL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Thiago', 'CIONEK', 'DÉFENSEUR', 32, 'POL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Jan', 'BEDNAREK', 'DÉFENSEUR', 22, 'POL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Kamil', 'GLIK', 'DÉFENSEUR', 30, 'POL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Bartosz', 'BERESZYNSKI', 'DÉFENSEUR', 26, 'POL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Lukasz', 'PISZCZEK', 'DÉFENSEUR', 33, 'POL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Michal', 'PAZDAN', 'DÃ‰FENSEUR', 30, 'POL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Artur', 'JEDRZEJCZYK', 'DÃ‰FENSEUR', 30, 'POL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Thiago', 'CIONEK', 'DÃ‰FENSEUR', 32, 'POL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Jan', 'BEDNAREK', 'DÃ‰FENSEUR', 22, 'POL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Kamil', 'GLIK', 'DÃ‰FENSEUR', 30, 'POL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Bartosz', 'BERESZYNSKI', 'DÃ‰FENSEUR', 26, 'POL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Lukasz', 'PISZCZEK', 'DÃ‰FENSEUR', 33, 'POL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Jacek', 'GORALSKI', 'MILIEU DE TERRAIN', 25, 'POL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Karol', 'LINETTY', 'MILIEU DE TERRAIN', 23, 'POL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Grzegorz', 'KRYCHOWIAK', 'MILIEU DE TERRAIN', 28, 'POL');
@@ -696,20 +696,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'Robert', 'LEWANDOWSKI', 'ATTAQUANT', 30, 'POL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Lukasz', 'TEODORCZYK', 'ATTAQUANT', 27, 'POL');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Dawid', 'KOWNACKI', 'ATTAQUANT', 21, 'POL');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Adam', 'NAWALKA', 'ENTRAÎNEUR', 60, 'POL');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Adam', 'NAWALKA', 'ENTRAÃŽNEUR', 60, 'POL');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'RUI', 'PATRICIO', 'GARDIEN DE BUT', 30, 'POR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'ANTHONY', 'LOPES', 'GARDIEN DE BUT', 27, 'POR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, NULL, 'BETO', 'GARDIEN DE BUT', 36, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'BRUNO', 'ALVES', 'DÉFENSEUR', 36, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, NULL, 'PEPE', 'DÉFENSEUR', 35, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'RAPHAEL', 'GUERREIRO', 'DÉFENSEUR', 24, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'JOSE', 'FONTE', 'DÉFENSEUR', 34, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'RUBEN', 'DIAS', 'DÉFENSEUR', 21, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, NULL, 'RICARDO', 'DÉFENSEUR', 24, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'MARIO', 'RUI', 'DÉFENSEUR', 27, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, NULL, 'CEDRIC', 'DÉFENSEUR', 27, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'BRUNO', 'ALVES', 'DÃ‰FENSEUR', 36, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, NULL, 'PEPE', 'DÃ‰FENSEUR', 35, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'RAPHAEL', 'GUERREIRO', 'DÃ‰FENSEUR', 24, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'JOSE', 'FONTE', 'DÃ‰FENSEUR', 34, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'RUBEN', 'DIAS', 'DÃ‰FENSEUR', 21, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, NULL, 'RICARDO', 'DÃ‰FENSEUR', 24, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'MARIO', 'RUI', 'DÃ‰FENSEUR', 27, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, NULL, 'CEDRIC', 'DÃ‰FENSEUR', 27, 'POR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'MANUEL', 'FERNANDES', 'MILIEU DE TERRAIN', 32, 'POR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'JOAO', 'MOUTINHO', 'MILIEU DE TERRAIN', 31, 'POR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'JOAO', 'MARIO', 'MILIEU DE TERRAIN', 25, 'POR');
@@ -722,22 +722,22 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 17, 'GONCALO', 'GUEDES', 'ATTAQUANT', 21, 'POR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'GELSON', 'MARTINS', 'ATTAQUANT', 23, 'POR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'RICARDO', 'QUARESMA', 'ATTAQUANT', 34, 'POR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Fernando', 'SANTOS', 'ENTRAÎNEUR', 63, 'POR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Fernando', 'SANTOS', 'ENTRAÃŽNEUR', 63, 'POR');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'KIM', 'Seunggyu', 'GARDIEN DE BUT', 27, 'KOR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'KIM', 'Jinhyeon', 'GARDIEN DE BUT', 31, 'KOR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'JO', 'Hyeonwoo', 'GARDIEN DE BUT', 26, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'LEE', 'Yong', 'DÉFENSEUR', 31, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'JUNG', 'Seunghyun', 'DÉFENSEUR', 24, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'OH', 'Bansuk', 'DÉFENSEUR', 30, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'YUN', 'Youngsun', 'DÉFENSEUR', 29, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'PARK', 'Jooho', 'DÉFENSEUR', 31, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'KIM', 'Minwoo', 'DÉFENSEUR', 28, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'HONG', 'Chul', 'DÉFENSEUR', 27, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'KIM', 'Younggwon', 'DÉFENSEUR', 28, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'JANG', 'Hyunsoo', 'DÉFENSEUR', 26, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'GO', 'Yohan', 'DÉFENSEUR', 30, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'LEE', 'Yong', 'DÃ‰FENSEUR', 31, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'JUNG', 'Seunghyun', 'DÃ‰FENSEUR', 24, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'OH', 'Bansuk', 'DÃ‰FENSEUR', 30, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'YUN', 'Youngsun', 'DÃ‰FENSEUR', 29, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'PARK', 'Jooho', 'DÃ‰FENSEUR', 31, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'KIM', 'Minwoo', 'DÃ‰FENSEUR', 28, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'HONG', 'Chul', 'DÃ‰FENSEUR', 27, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'KIM', 'Younggwon', 'DÃ‰FENSEUR', 28, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'JANG', 'Hyunsoo', 'DÃ‰FENSEUR', 26, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'GO', 'Yohan', 'DÃ‰FENSEUR', 30, 'KOR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'JU', 'Sejong', 'MILIEU DE TERRAIN', 27, 'KOR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'LEE', 'Seungwoo', 'MILIEU DE TERRAIN', 20, 'KOR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'KOO', 'Jacheol', 'MILIEU DE TERRAIN', 29, 'KOR');
@@ -748,20 +748,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'SON', 'Heungmin', 'ATTAQUANT', 26, 'KOR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'KIM', 'Shinwook', 'ATTAQUANT', 30, 'KOR');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'HWANG', 'Heechan', 'ATTAQUANT', 22, 'KOR');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'SHIN', 'Taeyong', 'ENTRAÎNEUR', 47, 'KOR');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'SHIN', 'Taeyong', 'ENTRAÃŽNEUR', 47, 'KOR');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Ali', 'BEIRANVAND', 'GARDIEN DE BUT', 25, 'IRN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Rashid', 'MAZAHERI', 'GARDIEN DE BUT', 29, 'IRN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Amir', 'ABEDZADEH', 'GARDIEN DE BUT', 25, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Ehsan', 'HAJI SAFI', 'DÉFENSEUR', 28, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Roozbeh', 'CHESHMI', 'DÉFENSEUR', 25, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Milad', 'MOHAMMADI', 'DÉFENSEUR', 24, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Morteza', 'POURALIGANJI', 'DÉFENSEUR', 26, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Mohammad Reza', 'KHANZADEH', 'DÉFENSEUR', 27, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Pejman', 'MONTAZERI', 'DÉFENSEUR', 34, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Majid', 'HOSSEINI', 'DÉFENSEUR', 22, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Ramin', 'REZAEIAN', 'DÉFENSEUR', 28, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Ehsan', 'HAJI SAFI', 'DÃ‰FENSEUR', 28, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Roozbeh', 'CHESHMI', 'DÃ‰FENSEUR', 25, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Milad', 'MOHAMMADI', 'DÃ‰FENSEUR', 24, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Morteza', 'POURALIGANJI', 'DÃ‰FENSEUR', 26, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Mohammad Reza', 'KHANZADEH', 'DÃ‰FENSEUR', 27, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Pejman', 'MONTAZERI', 'DÃ‰FENSEUR', 34, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Majid', 'HOSSEINI', 'DÃ‰FENSEUR', 22, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Ramin', 'REZAEIAN', 'DÃ‰FENSEUR', 28, 'IRN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Mahdi', 'TORABI', 'MILIEU DE TERRAIN', 23, 'IRN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Saeid', 'EZATOLAHI', 'MILIEU DE TERRAIN', 21, 'IRN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Masoud', 'SHOJAEI', 'MILIEU DE TERRAIN', 34, 'IRN');
@@ -774,19 +774,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Alireza', 'JAHANBAKHSH', 'ATTAQUANT', 25, 'IRN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Sardar', 'AZMOUN', 'ATTAQUANT', 23, 'IRN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Ashkan', 'DEJAGAH', 'ATTAQUANT', 32, 'IRN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Carlos', 'QUEIROZ', 'ENTRAÎNEUR', 65, 'IRN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Carlos', 'QUEIROZ', 'ENTRAÃŽNEUR', 65, 'IRN');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Igor', 'AKINFEEV', 'GARDIEN DE BUT', 32, 'RUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Andrei', 'LUNEV', 'GARDIEN DE BUT', 26, 'RUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Vladimir', 'GABULOV', 'GARDIEN DE BUT', 34, 'RUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'MARIO', 'FERNANDES', 'DÉFENSEUR', 27, 'RUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Ilya', 'KUTEPOV', 'DÉFENSEUR', 25, 'RUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Sergey', 'IGNASHEVICH', 'DÉFENSEUR', 39, 'RUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Andrey', 'SEMENOV', 'DÉFENSEUR', 29, 'RUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Fedor', 'KUDRIASHOV', 'DÉFENSEUR', 31, 'RUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Vladimir', 'GRANAT', 'DÉFENSEUR', 31, 'RUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Igor', 'SMOLNIKOV', 'DÉFENSEUR', 30, 'RUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'MARIO', 'FERNANDES', 'DÃ‰FENSEUR', 27, 'RUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Ilya', 'KUTEPOV', 'DÃ‰FENSEUR', 25, 'RUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Sergey', 'IGNASHEVICH', 'DÃ‰FENSEUR', 39, 'RUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Andrey', 'SEMENOV', 'DÃ‰FENSEUR', 29, 'RUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Fedor', 'KUDRIASHOV', 'DÃ‰FENSEUR', 31, 'RUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Vladimir', 'GRANAT', 'DÃ‰FENSEUR', 31, 'RUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Igor', 'SMOLNIKOV', 'DÃ‰FENSEUR', 30, 'RUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Denis', 'CHERYSHEV', 'MILIEU DE TERRAIN', 27, 'RUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Daler', 'KUZIAEV', 'MILIEU DE TERRAIN', 25, 'RUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Iury', 'GAZINSKY', 'MILIEU DE TERRAIN', 29, 'RUS');
@@ -800,18 +800,18 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Aleksandr', 'EROKHIN', 'MILIEU DE TERRAIN', 28, 'RUS'); 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Fedor', 'SMOLOV', 'ATTAQUANT', 28, 'RUS');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Artem', 'DZYUBA', 'ATTAQUANT', 30, 'RUS');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Stanislav', 'CHERCHESOV', 'ENTRAÎNEUR', 55, 'RUS');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Stanislav', 'CHERCHESOV', 'ENTRAÃŽNEUR', 55, 'RUS');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Abdoulaye', 'DIALLO', 'GARDIEN DE BUT', 26, 'SEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Khadim', 'NDIAYE', 'GARDIEN DE BUT', 33, 'SEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Alfred', 'GOMIS', 'GARDIEN DE BUT', 24, 'SEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Adama', 'MBENGUE', 'DÉFENSEUR', 24, 'SEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Kalidou', 'KOULIBALY', 'DÉFENSEUR', 27, 'SEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Kara', 'MBODJI', 'DÉFENSEUR', 28, 'SEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Youssouf', 'SABALY', 'DÉFENSEUR', 25, 'SEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Lamine', 'GASSAMA', 'DÉFENSEUR', 28, 'SEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Moussa', 'WAGUE', 'DÉFENSEUR', 19, 'SEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Adama', 'MBENGUE', 'DÃ‰FENSEUR', 24, 'SEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Kalidou', 'KOULIBALY', 'DÃ‰FENSEUR', 27, 'SEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Kara', 'MBODJI', 'DÃ‰FENSEUR', 28, 'SEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Youssouf', 'SABALY', 'DÃ‰FENSEUR', 25, 'SEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Lamine', 'GASSAMA', 'DÃ‰FENSEUR', 28, 'SEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Moussa', 'WAGUE', 'DÃ‰FENSEUR', 19, 'SEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Idrissa', 'Gana GUEYE', 'MILIEU DE TERRAIN', 28, 'SEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Salif', 'SANE', 'MILIEU DE TERRAIN', 28, 'SEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Cheikhou', 'KOUYATE', 'MILIEU DE TERRAIN', 28, 'SEN');
@@ -826,20 +826,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Ismaila', 'SARR', 'ATTAQUANT', 20, 'SEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Mbaye', 'NIANG', 'ATTAQUANT', 23, 'SEN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Keita', 'BALDE', 'ATTAQUANT', 23, 'SEN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Aliou', 'CISSE', 'ENTRAÎNEUR', 42, 'SEN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Aliou', 'CISSE', 'ENTRAÃŽNEUR', 42, 'SEN');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Vladimir', 'STOJKOVIC', 'GARDIEN DE BUT', 35, 'SRB');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Predrag', 'RAJKOVIC', 'GARDIEN DE BUT', 22, 'SRB');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Marko', 'DMITROVIC', 'GARDIEN DE BUT', 26, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Antonio', 'RUKAVINA', 'DÉFENSEUR', 34, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Dusko', 'TOSIC', 'DÉFENSEUR', 33, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Uros', 'SPAJIC', 'DÉFENSEUR', 25, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Branislav', 'IVANOVIC', 'DÉFENSEUR', 34, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Aleksandar', 'KOLAROV', 'DÉFENSEUR', 32, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Milos', 'VELJKOVIC', 'DÉFENSEUR', 22, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Milan', 'RODIC', 'DÉFENSEUR', 27, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Nikola', 'MILENKOVIC', 'DÉFENSEUR', 20, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Antonio', 'RUKAVINA', 'DÃ‰FENSEUR', 34, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Dusko', 'TOSIC', 'DÃ‰FENSEUR', 33, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Uros', 'SPAJIC', 'DÃ‰FENSEUR', 25, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Branislav', 'IVANOVIC', 'DÃ‰FENSEUR', 34, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Aleksandar', 'KOLAROV', 'DÃ‰FENSEUR', 32, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Milos', 'VELJKOVIC', 'DÃ‰FENSEUR', 22, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Milan', 'RODIC', 'DÃ‰FENSEUR', 27, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 15, 'Nikola', 'MILENKOVIC', 'DÃ‰FENSEUR', 20, 'SRB');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Luka', 'MILIVOJEVIC', 'MILIEU DE TERRAIN', 27, 'SRB');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Andrija', 'ZIVKOVIC', 'MILIEU DE TERRAIN', 22, 'SRB');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Dusan', 'TADIC', 'MILIEU DE TERRAIN', 29, 'SRB');
@@ -852,20 +852,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'Aleksandar', 'MITROVIC', 'ATTAQUANT', 23, 'SRB');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Nemanja', 'RADONJIC', 'ATTAQUANT', 22, 'SRB');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Luka', 'JOVIC', 'ATTAQUANT', 20, 'SRB');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Mladen', 'KRSTAJIC', 'ENTRAÎNEUR', 44, 'SRB');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Mladen', 'KRSTAJIC', 'ENTRAÃŽNEUR', 44, 'SRB');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Robin', 'OLSEN', 'GARDIEN DE BUT', 28, 'SWE');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Karl-Johan', 'JOHNSSON', 'GARDIEN DE BUT', 28, 'SWE');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Kristoffer', 'NORDFELDT', 'GARDIEN DE BUT', 29, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Mikael', 'LUSTIG', 'DÉFENSEUR', 31, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Victor', 'LINDELOF', 'DÉFENSEUR', 24, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Andreas', 'GRANQVIST', 'DÉFENSEUR', 33, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Martin', 'OLSSON', 'DÉFENSEUR', 30, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Ludwig', 'AUGUSTINSSON', 'DÉFENSEUR', 24, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Filip', 'HELANDER', 'DÉFENSEUR', 25, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Emil', 'KRAFTH', 'DÉFENSEUR', 24, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Pontus', 'JANSSON', 'DÉFENSEUR', 27, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Mikael', 'LUSTIG', 'DÃ‰FENSEUR', 31, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Victor', 'LINDELOF', 'DÃ‰FENSEUR', 24, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Andreas', 'GRANQVIST', 'DÃ‰FENSEUR', 33, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Martin', 'OLSSON', 'DÃ‰FENSEUR', 30, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Ludwig', 'AUGUSTINSSON', 'DÃ‰FENSEUR', 24, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Filip', 'HELANDER', 'DÃ‰FENSEUR', 25, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Emil', 'KRAFTH', 'DÃ‰FENSEUR', 24, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Pontus', 'JANSSON', 'DÃ‰FENSEUR', 27, 'SWE');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Sebastian', 'LARSSON', 'MILIEU DE TERRAIN', 33, 'SWE');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Albin', 'EKDAL', 'MILIEU DE TERRAIN', 29, 'SWE');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Emil', 'FORSBERG', 'MILIEU DE TERRAIN', 26, 'SWE');
@@ -878,20 +878,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'John', 'GUIDETTI', 'ATTAQUANT', 26, 'SWE');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Ola', 'TOIVONEN', 'ATTAQUANT', 32, 'SWE');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Isaac Kiese', 'THELIN', 'ATTAQUANT', 26, 'SWE');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Janne', 'ANDERSSON', 'ENTRAÎNEUR', 55, 'SWE');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Janne', 'ANDERSSON', 'ENTRAÃŽNEUR', 55, 'SWE');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Yann', 'SOMMER', 'GARDIEN DE BUT', 29, 'SUI');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Yvon', 'MVOGO', 'GARDIEN DE BUT', 24, 'SUI');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Roman', 'BUERKI', 'GARDIEN DE BUT', 27, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Stephan', 'LICHTSTEINER', 'DÉFENSEUR', 34, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Francois', 'MOUBANDJE', 'DÉFENSEUR', 28, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Nico', 'ELVEDI', 'DÉFENSEUR', 21, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Manuel', 'AKANJI', 'DÉFENSEUR', 23, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Michael', 'LANG', 'DÉFENSEUR', 27, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Ricardo', 'RODRIGUEZ', 'DÉFENSEUR', 26, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Johan', 'DJOUROU', 'DÉFENSEUR', 31, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Fabian', 'SCHAER', 'DÉFENSEUR', 26, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Stephan', 'LICHTSTEINER', 'DÃ‰FENSEUR', 34, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Francois', 'MOUBANDJE', 'DÃ‰FENSEUR', 28, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Nico', 'ELVEDI', 'DÃ‰FENSEUR', 21, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Manuel', 'AKANJI', 'DÃ‰FENSEUR', 23, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Michael', 'LANG', 'DÃ‰FENSEUR', 27, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Ricardo', 'RODRIGUEZ', 'DÃ‰FENSEUR', 26, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Johan', 'DJOUROU', 'DÃ‰FENSEUR', 31, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Fabian', 'SCHAER', 'DÃ‰FENSEUR', 26, 'SUI');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 8, 'Remo', 'FREULER', 'MILIEU DE TERRAIN', 26, 'SUI');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 10, 'Granit', 'XHAKA', 'MILIEU DE TERRAIN', 25, 'SUI');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Valon', 'BEHRAMI', 'MILIEU DE TERRAIN', 33, 'SUI');
@@ -904,20 +904,20 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'Haris', 'SEFEROVIC', 'ATTAQUANT', 26, 'SUI');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Mario', 'GAVRANOVIC', 'ATTAQUANT', 28, 'SUI');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Josip', 'DRMIC', 'ATTAQUANT', 26, 'SUI');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Vladimir', 'PETKOVIC', 'ENTRAÎNEUR', 55, 'SUI');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Vladimir', 'PETKOVIC', 'ENTRAÃŽNEUR', 55, 'SUI');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Farouk', 'BEN MUSTAPHA', 'GARDIEN DE BUT', 29, 'TUN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Aymen', 'MATHLOUTHI', 'GARDIEN DE BUT', 33, 'TUN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Mouez', 'HASSEN', 'GARDIEN DE BUT', 23, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Syam', 'BEN YOUSSEF', 'DÉFENSEUR', 29, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Yohan', 'BEN ALOUANE', 'DÉFENSEUR', 31, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Yassine', 'MERIAH', 'DÉFENSEUR', 25, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Oussama', 'HADDADI', 'DÉFENSEUR', 26, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Rami', 'BEDOUI', 'DÉFENSEUR', 28, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Dylan', 'BRONN', 'DÉFENSEUR', 23, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Ali', 'MAALOUL', 'DÉFENSEUR', 28, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Hamdi', 'NAGUEZ', 'DÉFENSEUR', 25, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Syam', 'BEN YOUSSEF', 'DÃ‰FENSEUR', 29, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Yohan', 'BEN ALOUANE', 'DÃ‰FENSEUR', 31, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Yassine', 'MERIAH', 'DÃ‰FENSEUR', 25, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Oussama', 'HADDADI', 'DÃ‰FENSEUR', 26, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Rami', 'BEDOUI', 'DÃ‰FENSEUR', 28, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 11, 'Dylan', 'BRONN', 'DÃ‰FENSEUR', 23, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Ali', 'MAALOUL', 'DÃ‰FENSEUR', 28, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Hamdi', 'NAGUEZ', 'DÃ‰FENSEUR', 25, 'TUN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 9, 'Anice', 'BADRI', 'MILIEU DE TERRAIN', 27, 'TUN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Ferjani', 'SASSI', 'MILIEU DE TERRAIN', 26, 'TUN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 14, 'Mohamed', 'BEN AMOR', 'MILIEU DE TERRAIN', 26, 'TUN');
@@ -930,19 +930,19 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Saber', 'KHALIFA', 'ATTAQUANT', 31, 'TUN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Ghaylen', 'CHAALELI', 'ATTAQUANT', 24, 'TUN');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Naim', 'SLITI', 'ATTAQUANT', 26, 'TUN');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Nabil', 'MAALOUL', 'ENTRAÎNEUR', 55, 'TUN');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Nabil', 'MAALOUL', 'ENTRAÃŽNEUR', 55, 'TUN');
 COMMIT;
 
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 1, 'Fernando', 'MUSLERA', 'GARDIEN DE BUT', 32, 'URU');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 12, 'Martin', 'CAMPANA', 'GARDIEN DE BUT', 29, 'URU');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 23, 'Martin', 'SILVA', 'GARDIEN DE BUT', 35, 'URU');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Jose', 'GIMENEZ', 'DÉFENSEUR', 23, 'URU');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Diego', 'GODIN', 'DÉFENSEUR', 32, 'URU');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Guillermo', 'VARELA', 'DÉFENSEUR', 25, 'URU');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Gaston', 'SILVA', 'DÉFENSEUR', 24, 'URU');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Maximiliano', 'PEREIRA', 'DÉFENSEUR', 34, 'URU');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Sebastian', 'COATES', 'DÉFENSEUR', 27, 'URU');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Martin', 'CACERES', 'DÉFENSEUR', 31, 'URU');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 2, 'Jose', 'GIMENEZ', 'DÃ‰FENSEUR', 23, 'URU');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 3, 'Diego', 'GODIN', 'DÃ‰FENSEUR', 32, 'URU');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 4, 'Guillermo', 'VARELA', 'DÃ‰FENSEUR', 25, 'URU');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 13, 'Gaston', 'SILVA', 'DÃ‰FENSEUR', 24, 'URU');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 16, 'Maximiliano', 'PEREIRA', 'DÃ‰FENSEUR', 34, 'URU');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 19, 'Sebastian', 'COATES', 'DÃ‰FENSEUR', 27, 'URU');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 22, 'Martin', 'CACERES', 'DÃ‰FENSEUR', 31, 'URU');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 5, 'Carlos', 'SANCHEZ', 'MILIEU DE TERRAIN', 33, 'URU');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 6, 'Rodrigo', 'BENTANCUR', 'MILIEU DE TERRAIN', 21, 'URU');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 7, 'Cristian', 'RODRIGUEZ', 'MILIEU DE TERRAIN', 32, 'URU');
@@ -956,7 +956,7 @@ INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueu
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 18, 'Maximiliano', 'GOMEZ', 'ATTAQUANT', 22, 'URU');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 20, 'Jonathan', 'URRETAVISCAYA', 'ATTAQUANT', 28, 'URU');
 INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, 21, 'Edinson', 'CAVANI', 'ATTAQUANT', 31, 'URU');
-INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Oscar', 'TABAREZ', 'ENTRAÎNEUR', 71, 'URU');
+INSERT INTO Joueur (nj, nmaillot, prenom, nom, poste, age, ne) VALUES (seq_joueur.NEXTVAL, NULL, 'Oscar', 'TABAREZ', 'ENTRAÃŽNEUR', 71, 'URU');
 COMMIT;
 
 
@@ -964,7 +964,7 @@ COMMIT;
 INSERT INTO Action (na, typea) VALUES ('BUT', 'But');
 INSERT INTO Action (na, typea) VALUES ('BCC', 'But contre son camp');
 INSERT INTO Action (na, typea) VALUES ('SRT', 'Sortie par remplacement');
-INSERT INTO Action (na, typea) VALUES ('ENT', 'Entrée en cours de match');
+INSERT INTO Action (na, typea) VALUES ('ENT', 'EntrÃ©e en cours de match');
 INSERT INTO Action (na, typea) VALUES ('JNE', 'Avertissement par carton jaune');
 INSERT INTO Action (na, typea) VALUES ('RGE', 'Expulsion par carton rouge');
 COMMIT;
@@ -987,7 +987,7 @@ INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('15 juin 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe A', 'Ekaterinburg Arena', 'Ekaterinbourg', 'EGY',0, 1, 'URU');
 
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('15 juin 2018 - 18:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe B', 'Stade de Saint-Pétersbourg', 'Saint-Pétersbourg', 'MAR', 0, 1, 'IRN');
+VALUES (seq_match.NEXTVAL, TO_DATE('15 juin 2018 - 18:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe B', 'Stade de Saint-PÃ©tersbourg', 'Saint-PÃ©tersbourg', 'MAR', 0, 1, 'IRN');
 
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('15 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe B', 'Fisht Stadium', 'Sotchi', 'POR', 3, 3, 'ESP');
@@ -1029,7 +1029,7 @@ INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('19 juin 2018 - 18:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe H', 'Spartak Stadium', 'Moscou', 'POL', 1, 2, 'SEN');
 
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('19 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe A', 'Stade de Saint-Pétersbourg', 'Saint-Pétersbourg', 'RUS', 3, 1, 'EGY');
+VALUES (seq_match.NEXTVAL, TO_DATE('19 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe A', 'Stade de Saint-PÃ©tersbourg', 'Saint-PÃ©tersbourg', 'RUS', 3, 1, 'EGY');
 
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('20 juin 2018 - 15:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe B', 'Luzhniki Stadium', 'Moscou', 'POR', 1, 0, 'MAR');
@@ -1050,7 +1050,7 @@ INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('21 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe D', 'Nizhny Novgorod Stadium', 'Nijni-Novgorod', 'ARG', 0, 3, 'CRO');
 
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('22 juin 2018 - 15:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe E', 'Stade de Saint-Pétersbourg', 'Saint-Pétersbourg', 'BRA', 2, 0, 'CRC');
+VALUES (seq_match.NEXTVAL, TO_DATE('22 juin 2018 - 15:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe E', 'Stade de Saint-PÃ©tersbourg', 'Saint-PÃ©tersbourg', 'BRA', 2, 0, 'CRC');
 
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('22 juin 2018 - 18:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe D', 'Volgograd Arena', 'Volgograd', 'NGA', 2, 0, 'ISL');
@@ -1095,7 +1095,7 @@ INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('26 juin 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe C', 'Stade Loujniki', 'Moscou', 'DEN', 0, 0, 'FRA');
 
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('26 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe D', 'Stade de Saint-Pétersbourg', 'Saint-Pétersbourg', 'NGA', 1, 2, 'ARG');
+VALUES (seq_match.NEXTVAL, TO_DATE('26 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe D', 'Stade de Saint-PÃ©tersbourg', 'Saint-PÃ©tersbourg', 'NGA', 1, 2, 'ARG');
 
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('26 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe D', 'Rostov Arena', 'Rostov-sur-le-Don', 'ISL', 1, 2, 'CRO');
@@ -1124,10 +1124,10 @@ VALUES (seq_match.NEXTVAL, TO_DATE('28 juin 2018 - 21:00', 'DD MONTH YYYY - HH24
 INSERT INTO Match (nm, dtm, poule, stade, ville, ne1, score1, score2, ne2)
 VALUES (seq_match.NEXTVAL, TO_DATE('28 juin 2018 - 20:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Groupe G', 'Stade de Kaliningrad', 'Kaliningrad', 'ENG', 0, 1, 'BEL');
 
--- Huitième de Finale
+-- HuitiÃ¨me de Finale
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('30 juin 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Kazan Arena', 'Kazan', 'Huitième de finale', 'FRA', 4, 3, 'ARG');
+VALUES (seq_match.NEXTVAL, TO_DATE('30 juin 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Kazan Arena', 'Kazan', 'HuitiÃ¨me de finale', 'FRA', 4, 3, 'ARG');
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'FRA'), 'C');
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 2 AND ne = 'FRA'), NULL);
@@ -1184,7 +1184,7 @@ INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '90+3', (SELEC
 COMMIT;
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('30 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade Ficht', 'Sotchi', 'Huitième de finale', 'URU', 2, 1, 'POR');
+VALUES (seq_match.NEXTVAL, TO_DATE('30 juin 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade Ficht', 'Sotchi', 'HuitiÃ¨me de finale', 'URU', 2, 1, 'POR');
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'URU'), NULL);
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 2 AND ne = 'URU'), NULL);
@@ -1230,7 +1230,7 @@ INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '90+3', (SELEC
 COMMIT;
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2, sc1_penalty, sc2_penalty)
-VALUES (seq_match.NEXTVAL, TO_DATE('01 juil. 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade Loujniki', 'Moscou', 'Huitième de finale', 'ESP', 1, 1, 'RUS', 3, 4);
+VALUES (seq_match.NEXTVAL, TO_DATE('01 juil. 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade Loujniki', 'Moscou', 'HuitiÃ¨me de finale', 'ESP', 1, 1, 'RUS', 3, 4);
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'ESP'), NULL);
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 3 AND ne = 'ESP'), NULL);
@@ -1281,7 +1281,7 @@ INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '104', (SELECT
 COMMIT;
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2, sc1_penalty, sc2_penalty)
-VALUES (seq_match.NEXTVAL, TO_DATE('01 juil. 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade de Nijni-Novgorod', 'Nijni-Novgorod', 'Huitième de finale', 'CRO', 1, 1, 'DEN', 3, 2);
+VALUES (seq_match.NEXTVAL, TO_DATE('01 juil. 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade de Nijni-Novgorod', 'Nijni-Novgorod', 'HuitiÃ¨me de finale', 'CRO', 1, 1, 'DEN', 3, 2);
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 23 AND ne = 'CRO'), NULL);
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 2 AND ne = 'CRO'), NULL);
@@ -1330,7 +1330,7 @@ INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '115', (SELECT
 COMMIT;
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('02 juil. 2018 - 18:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Samara Arena', 'Samara', 'Huitième de finale', 'BRA', 2, 0, 'MEX');
+VALUES (seq_match.NEXTVAL, TO_DATE('02 juil. 2018 - 18:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Samara Arena', 'Samara', 'HuitiÃ¨me de finale', 'BRA', 2, 0, 'MEX');
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'BRA'), NULL);
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 2 AND ne = 'BRA'), 'C');
@@ -1380,7 +1380,7 @@ INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '90+2', (SELEC
 COMMIT;
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('02 juil. 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Rostov Arena', 'Rostov-sur-le-Don', 'Huitième de finale', 'BEL', 3, 2, 'JPN');
+VALUES (seq_match.NEXTVAL, TO_DATE('02 juil. 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Rostov Arena', 'Rostov-sur-le-Don', 'HuitiÃ¨me de finale', 'BEL', 3, 2, 'JPN');
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'BEL'), NULL);
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 2 AND ne = 'BEL'), NULL);
@@ -1423,7 +1423,7 @@ INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '90+4', (SELEC
 COMMIT;
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('03 juil. 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade de Saint-Pétersbourg', 'Saint-Pétersbourg', 'Huitième de finale', 'SWE', 1, 0, 'SUI');
+VALUES (seq_match.NEXTVAL, TO_DATE('03 juil. 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade de Saint-PÃ©tersbourg', 'Saint-PÃ©tersbourg', 'HuitiÃ¨me de finale', 'SWE', 1, 0, 'SUI');
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'SWE'), NULL);
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 2 AND ne = 'SWE'), NULL);
@@ -1469,7 +1469,7 @@ COMMIT;
 
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2, sc1_penalty, sc2_penalty)
-VALUES (seq_match.NEXTVAL, TO_DATE('03 juil. 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade du Spartak', 'Moscou', 'Huitième de finale', 'COL', 1, 1, 'ENG', 3, 4);
+VALUES (seq_match.NEXTVAL, TO_DATE('03 juil. 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade du Spartak', 'Moscou', 'HuitiÃ¨me de finale', 'COL', 1, 1, 'ENG', 3, 4);
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'COL'), NULL);
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 4 AND ne = 'COL'), NULL);
@@ -1724,7 +1724,7 @@ COMMIT;
 -- Demi-Finale
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('10 juil. 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade de Saint-Pétersbourg', 'Saint-Pétersbourg', 'Demi-finale', 'FRA', 1, 0, 'BEL');
+VALUES (seq_match.NEXTVAL, TO_DATE('10 juil. 2018 - 21:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade de Saint-PÃ©tersbourg', 'Saint-PÃ©tersbourg', 'Demi-finale', 'FRA', 1, 0, 'BEL');
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'FRA'), 'C');
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 2 AND ne = 'FRA'), NULL);
@@ -1821,10 +1821,10 @@ INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '119', (SELECT
 INSERT INTO Survenir (nm, tps, nj, na) VALUES (seq_match.CURRVAL, '119', (SELECT nj FROM Joueur WHERE nmaillot = 19 AND ne = 'CRO'), 'ENT');
 COMMIT;
 
--- Finale pour la troisième place
+-- Finale pour la troisiÃ¨me place
 
 INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2)
-VALUES (seq_match.NEXTVAL, TO_DATE('14 juil. 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade de Saint-Pétersbourg', 'Saint-Pétersbourg', 'Finale pour la troisième place', 'BEL', 2, 0, 'ENG');
+VALUES (seq_match.NEXTVAL, TO_DATE('14 juil. 2018 - 17:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade de Saint-PÃ©tersbourg', 'Saint-PÃ©tersbourg', 'Finale pour la troisiÃ¨me place', 'BEL', 2, 0, 'ENG');
 
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'BEL'), NULL);
 INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 2 AND ne = 'BEL'), NULL);
@@ -2004,7 +2004,7 @@ INSERT INTO Survenir (nm, tps, nj, na) VALUES (5, '84', (SELECT nj FROM Joueur W
 COMMIT;
 
 UPDATE Equipe
-SET nome = 'CORÉE DU SUD'
+SET nome = 'CORÃ‰E DU SUD'
 WHERE ne = 'KOR';
 
 UPDATE Equipe
