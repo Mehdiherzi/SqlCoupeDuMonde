@@ -34,12 +34,14 @@ From joueur j ,equipe e
 where j.nmaillot = 1   AND j.poste= 'GARDIEN DE BUT'  AND e.ne =j.ne ;
 
 --(4)	Obtenir le numéro de maillot, le nom et le prénom des joueurs ayant débuté la finale.
+
+
 -- cadavre 
 SELECT nmaillot , nom , prenom 
 From  Match m , joueur j , equipe e1 , equipe e2 ,
 where  m.poule = 'final' And  e1.ne =m.ne1   AND  e2.ne =m.ne2 
 
--- naissance 
+-- mort
 SELECT nmaillot , nom , prenom  FROM Match m  , joueur 
 WHERE   m.ne1   IN (SELECT j1.ne from joueur j1
                     WHERE m.poule = 'Finale ')           
@@ -47,13 +49,26 @@ Where   m.ne2   IN (SELECT j2.ne from joueur j2
                    WHERE m.poule = 'Finale ' )
 
 
---mise au point 
+--mort
 --SELECT nmaillot , nom , prenom , nome  FROM   joueur , match m
 WHERE( m.ne1 IN (SELECT e1.ne  from equipe e1 where m.poule='Finale'))
    -- ANd( m.ne2 IN (SELECT e2.ne  from equipe e2 , match m where m.poule='Finale'))) 
     
 
- 
+
+--born
+
+
+--INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'FRA'), 'C');
+--INSERT INTO Match (nm, dtm, stade, ville, poule, ne1, score1, score2, ne2)
+--VALUES (seq_match.NEXTVAL, TO_DATE('15 juil. 2018 - 18:00', 'DD MONTH YYYY - HH24:MI', 'NLS_DATE_LANGUAGE = french'), 'Stade Loujniki', 'Moscou', 'Finale', 'FRA', 4, 2, 'CRO');
+--COMMIT;
+
+--(4)	Obtenir le numéro de maillot, le nom et le prénom des joueurs ayant débuté la finale.
+--vivant 
+ SELECT nmaillot, nom , prenom 
+ from  joueur j , match m , composer c
+ where m.poule = 'Finale' and c.nj= j.nj and m.nm = c.nm  
 
 
 -- (5) Obtenir les buteurs de l’équipe de France. 
