@@ -58,11 +58,13 @@ WHERE( m.ne1 IN (SELECT e1.ne  from equipe e1 where m.poule='Finale'))
 
 -- (5) Obtenir les buteurs de l’équipe de France. 
 
---(6)
+--(6) Obtenir les buteurs de l’équipe de France en finale.
 
---(7)
+--(7) Obtenir le nom, le prénom et le poste de chaque capitaine par équipe. 
 
---(8)
+--(8) Calculer le nombre d’attaquants par équipes (classées de la plus offensive à la plus
+--défensive). 
+
 
 --(9)
 
@@ -90,6 +92,9 @@ where j1.poste='ATTAQUANT' AND j1.ne = 'BRA';
 SELECT nome , nom ,prenom 
 From joueur j ,equipe e 
 where j.nmaillot = 1   AND j.poste= 'GARDIEN DE BUT'  AND e.ne =j.ne ;
+
+
+
 
 
 SELECT nmaillot , nom , prenom 
