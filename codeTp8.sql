@@ -87,7 +87,9 @@ where s.nj=j.nj and s.na = 'BUT' and ne = 'FRA';
 
 
 --(6) Obtenir les buteurs de l’équipe de France en finale.
-
+SELECT j.nom , j.prenom , ne 
+From survenir s , joueur j , match m
+where s.nj=j.nj and s.na = 'BUT' and ne = 'FRA' and   m.poule = 'Finale'
 
 --(7) Obtenir le nom, le prénom et le poste de chaque capitaine par équipe. 
 
