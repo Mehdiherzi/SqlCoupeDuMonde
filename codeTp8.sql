@@ -105,19 +105,80 @@ ORDER by j.nmaillot
 
 --INSERT INTO Composer (nm, nj, cap) VALUES (seq_match.CURRVAL, (SELECT nj FROM Joueur WHERE nmaillot = 1 AND ne = 'FRA'), 'C');
 
-SELECT e.nome , j.nom , j.prenom ,j.poste 
+
+
+SELECT DISTINCT  e.nome , j.nom , j.prenom ,j.poste  
 from composer c ,equipe e , joueur j
-where c.nj =j.nj and c.cap ='cap'
+where c.nj =j.nj and  c.cap= 'C' and  e.ne = j.ne
+ORDER BY e.nome 
+
 --(8) Calculer le nombre d’attaquants par équipes (classées de la plus offensive à la plus
---défensive). 
+--défensive).
+-- mort 
+SELECT  e.nome , count(j.poste)
+From joueur j ,equipe e 
+where j.poste='ATTAQUANT' and j.ne= e.ne
+
+
+-- mort
+SELECT count(e.ne )
+From equipe  e 
+group by  e.ne 
+where  e.ne = 'FRA'
+
+
+
+--8  vivant 
+
+SELECT e.nome,count(j.ne)
+From joueur j,equipe e
+where   e.ne = j.ne  
+      and j.poste ='ATTAQUANT'
+group by e.nome
+order by count(j.ne) desc ;
+
+
+
 
 
 --(9)
 
+select  j.nmaillot, j.nom , j.prenom ,  count(j.ne) as "NBBUTS"  
+From survenir s , joueur j 
+where s.nj = j.nj 
+and s.na = 'BUT'
+group by j.nom ,j.nmaillot,j.prenom ;
+
+
 --(10)
+
+SELECT j.nmaillot , j.nom , j.prenom 
+FROM joueur j  , survenir s
+WHERE j.nj = s.nj
+      and  s.na = 'BUT'
+GROUP by j.nmaillot , j.nom , j.prenom 
+HAVING  count(s.na)= (select max(count(s.na)) as "Nbb"
+                     from survenir s 
+                     where  s.na = 'BUT' -- c'est les action que  nous decomposer 
+                     group by s.nj ); --  on veux le nombre de but pars joueur 
+
+
 
 --(11)
 
+
+SELECT e.nome 
+FROM joueur j  , survenir s ,equipe e 
+WHERE j.nj = s.nj
+      and j.ne = e.ne 
+      and  s.na = 'BUT'
+GROUP by  e.nome 
+HAVING  count(s.na) =  (select max(count(s.na))
+                        from survenir s , joueur j ,equipe e
+                        where s.nj = j.nj
+                              and j.ne = e.ne
+                              and s.na = 'BUT'
+                        group by e.ne);
 
 
 
@@ -146,6 +207,7 @@ where j.nmaillot = 1   AND j.poste= 'GARDIEN DE BUT'  AND e.ne =j.ne ;
 SELECT nmaillot , nom , prenom 
 From  Match m , joueur j , equipe e1 , equipe e2 
 where  m.poule = 'final' And  e1.ne =m.ne1  
+
 
 
 
